@@ -5,6 +5,7 @@ from .validate import (
     check_bounds,
     check_required,
     check_types,
+    is_valid,
     parse_schema,
     request_batch,
     validate,
@@ -18,6 +19,7 @@ __all__ = [
     "check_types",
     "check_bounds",
     "validate",
+    "is_valid",
     "validate_schema",
     "request_batch",
 ]
